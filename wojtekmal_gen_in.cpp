@@ -159,7 +159,7 @@ bool generate_test(fs::path path, std::mt19937& rng, int n, int q) {
     std::uniform_int_distribution<int> type_dist(0, 2); 
     
     file << n << " " << q << "\n";
-    file << std::fixed << std::setprecision(4);
+    file << std::fixed << std::setprecision(6);
 
     // --- Generowanie N kartek ---
     for (int i = 1; i <= n; ++i) {
