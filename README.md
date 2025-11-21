@@ -4,7 +4,7 @@ Testy do zadania origami.
 W rozwiązaniu niedokładności powinny być rozstrzygane na korzyść punktu **na linii**
 i na korzyść punkty **w figurze**.
 
-W naszych rozwiązaniach $\varepsilon = 1e-6$ do porównywania z zerem.
+W naszych rozwiązaniach $\varepsilon = 10^{-6}$ do porównywania z zerem.
 
 Poza podziałem na wielkość testy dzielą się na dwa rodzaje.
 1. Testy całkowicie losowe
