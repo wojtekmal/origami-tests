@@ -16,5 +16,6 @@ wektor o niecałkowitych wartościach, a koordynaty w pytaniach są pomnożone p
 liczbę wymierną o małych liczniku i mianowniku. Ten typ testów dzieli się na takie same
 podrodzaje jak wyżej i znajduje się w folderze `float_test`.
 
-TODO:
-Zrobić testy customowe
+Są też testy w których prostokąt/koło jest składane wielokrotnie tak aby wynik znajdował się w kwadracie (0, 0), (1, 1).
+Dzięki temu odpowiedź może sięgać 2^20.
+Te testy znajdują się w folderze `manual`. 
